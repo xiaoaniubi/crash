@@ -29,7 +29,7 @@ sudo make install
 - 编译
 
   ```shell
-  make extensions
+  make arch=arm64 extensions
   ```
 
 ### 使用
