@@ -12,9 +12,11 @@ make target=ARM64
 sudo make install
 ```
 
-## 构建 trace.so
+## trace.so
 
 [https://crash-utility.github.io/extensions.html]:
+
+### 构建
 
 - 下载 trace 源码
 
@@ -30,7 +32,7 @@ sudo make install
   make extensions
   ```
 
-## 使用 trace.so
+### 使用
 
 ```shell
 crash> extend <path-to>/<module>.so
